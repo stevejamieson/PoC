@@ -1,2 +1,2 @@
 - RTDashboard
--- Backend Scaffold (FastAPI + Azure SignalR
+-- Backend Scaffold FastAPI + Azure SignalR
