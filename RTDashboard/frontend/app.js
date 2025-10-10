@@ -7,7 +7,7 @@ eventSource.onmessage = (event) => {
 };
 
 // WebSocket fallback (optional)
-const socket = new WebSocket("wss://<your-signalr-endpoint>");
+const socket = new WebSocket("wss://https://rtsignalrfree.service.signalr.net");
 socket.onmessage = (event) => {
   const data = JSON.parse(event.data);
   statusDiv.textContent = `⚡ Status: ${data.text}`;
