@@ -19,7 +19,7 @@ async def websocket_endpoint(websocket: WebSocket):
         while True:
             data = await websocket.receive_text()
             for client in connected_clients:
-                await client.send_text(f"{data}")
+                await client.send_text(f"[{websocket.client.host}] {data}")
     except WebSocketDisconnect:
         connected_clients.remove(websocket)
 
