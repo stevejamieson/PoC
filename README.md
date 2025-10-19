@@ -1,2 +1,3 @@
 - RTDashboard
 -- Backend Scaffold FastAPI + Azure SignalR
+  -  \rtdashboard\rtdashboard\app> uvicorn main:app --reload
