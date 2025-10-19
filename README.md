@@ -1,3 +1,4 @@
 - RTDashboard
 -- Backend Scaffold FastAPI + Azure SignalR
   -  \rtdashboard\rtdashboard\app> uvicorn main:app --reload
+  -  http://127.0.0.1:8000/dashboard
